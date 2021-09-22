@@ -8,6 +8,6 @@ def bowling_pins(throws):
     return pinPlacement.format(*pins)
 
 for throw in testThrow:
-    print("Throw -> {}\n-------\n{}".format(throw, bowling_pins(throw)))
+    print("Throw --> {}\n-------\n{}".format(throw, bowling_pins(throw)))
 
 
